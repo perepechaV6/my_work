@@ -1,11 +1,15 @@
 from operator import truediv
 
 name = 'Dima'
-print(name, (type))
+print(f"Name: {name}")
+print(f"Type of name: {type(name)}")
 age = 24
-print(age, (type))
+print(f"Age: {age}")
+print(f"Type of age: {type(age)}")
 new_age = 1
-print(age + new_age, (type))
-name = 'is_student'
+age += new_age
+print(f"New Age: {age}")
+print(f"Type of new age: {type(age)}")
 is_student = True
-print(name, is_student)
+print(f"Is Student: {is_student}")
+print(f"Type of is_student: {type(is_student)}")
